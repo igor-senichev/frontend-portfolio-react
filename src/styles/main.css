@@ -72,7 +72,7 @@ body {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1200px;
+  max-width: 1250px;
 }
 
 .none {
@@ -99,6 +99,7 @@ body {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.3;
+  color: var(--title-1);
 }
 
 .title-3 {
@@ -199,6 +200,12 @@ body {
   line-height: 1.3;
 }
 
+.project-details__description {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+}
 /* Content list */
 
 .content-list {

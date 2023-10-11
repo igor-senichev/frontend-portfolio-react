@@ -15,7 +15,7 @@ function Home() {
               <h2 className="title-2">Frontend skills</h2>
               <p>
                 HTML, CSS, JavaScript, ReactJS, TypeScript, Redux, Redux Toolkit, MaterialUI,
-                TheeJs(WebGi), GSAP, StyledComponents, GitHub, Vite
+                StyledComponents, GitHub, Vite
               </p>
             </li>
 

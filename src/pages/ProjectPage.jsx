@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 
 import BtnGitHub from './../components/btnGitHub/BtnGitHub';
 import { projects } from './../helpers/projectsList';
+import BtnView from '../components/btnView/BtnView';
 
 function ProjectPage() {
   const { id } = useParams();
@@ -17,9 +18,10 @@ function ProjectPage() {
           <img src={project.imgBig} alt={project.title} className="project-details__cover" />
           <div className="project-details__desc">
             <p>{project.skills}</p>
+            <p className="project-details__description">{project.description}</p>
           </div>
-
-          {project.gitHubLink && <BtnGitHub link="https://github.com" />}
+          {project.link && <BtnView link={project.link} />}
+          {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
         </div>
       </div>
     </main>
