@@ -36,7 +36,7 @@ const projects = [
       'Данный проект представляет собой сайт-портфолио с работами.  В проекте реализовано переключение между светлой и темной темами, которые не только изменяются визуально благодаря переключателю, но и автоматически адаптируются к настройкам темы вашей операционной системы.',
     img: project02,
     imgBig: project02B,
-    link: 'https://news-react-dusky.vercel.app/',
+    link: 'https://frontend-portfolio-react-navy.vercel.app/',
     gitHubLink: 'https://github.com/igor-senichev/frontend-portfolio-react',
   },
   {
