@@ -40,7 +40,7 @@
 
   --title-1: var(--white);
 
-  --project-card-bg: var(--black);
+  --project-card-bg: #404040;
   --project-card-text: var(--white);
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 }
