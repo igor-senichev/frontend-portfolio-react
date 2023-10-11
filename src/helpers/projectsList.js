@@ -20,7 +20,7 @@ const projects = [
   {
     id: 0,
     title: 'Portfolio website',
-    skills: 'React, React Router, JavaScript',
+    skills: 'Skills: React, React Router, JavaScript',
     description:
       'Данный проект представляет собой сайт-портфолио с работами.  В проекте реализовано переключение между светлой и темной темами, которые не только изменяются визуально благодаря переключателю, но и автоматически адаптируются к настройкам темы вашей операционной системы.',
     img: project02,
@@ -31,7 +31,7 @@ const projects = [
   {
     id: 1,
     title: 'Arrow-game',
-    skills: 'React, Redux Toolkit, TypeScript, Vite, Vitest, Material-UI',
+    skills: 'Skills: React, Redux Toolkit, TypeScript, Vite, Vitest, Material-UI',
     description:
       'В данном приложении реализована игра, где на экране рандомно отображаются стрелки. Пользователю нужно нажать соответствующие кнопки на клавиатуре. Для победы надо последовательно угадать 3 раза.',
     img: project03,
@@ -42,7 +42,7 @@ const projects = [
   {
     id: 2,
     title: 'World of News',
-    skills: 'React, JavaScript, Vite',
+    skills: 'Skills: React, JavaScript, Vite',
     description:
       'Проект Мировых новостей показывает, как самые свежие новости (в левом разделе), так и раздел всех новостей, где можно выбирать раздел интересующих новостей, переходить по страницам и вводить в поиск интересующую вас новость.',
     img: project01,
