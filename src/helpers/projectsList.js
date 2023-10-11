@@ -19,17 +19,6 @@ import project06B from './../img/projects/01-big.jpg';
 const projects = [
   {
     id: 0,
-    title: 'World of News',
-    skills: 'React, JavaScript, Vite',
-    description:
-      'Проект Мировых новостей показывает, как самые свежие новости (в левом разделе), так и раздел всех новостей, где можно выбирать раздел интересующих новостей, переходить по страницам и вводить в поиск интересующую вас новость.',
-    img: project01,
-    imgBig: project01B,
-    link: 'https://news-react-dusky.vercel.app/',
-    gitHubLink: 'https://github.com/igor-senichev/news-react',
-  },
-  {
-    id: 1,
     title: 'Portfolio website',
     skills: 'React, React Router, JavaScript',
     description:
@@ -40,7 +29,7 @@ const projects = [
     gitHubLink: 'https://github.com/igor-senichev/frontend-portfolio-react',
   },
   {
-    id: 2,
+    id: 1,
     title: 'Arrow-game',
     skills: 'React, Redux Toolkit, TypeScript, Vite, Vitest, Material-UI',
     description:
@@ -49,6 +38,17 @@ const projects = [
     imgBig: project03B,
     link: 'https://igor-senichev.github.io/react-arrow-game//',
     gitHubLink: 'https://github.com/igor-senichev/react-arrow-game',
+  },
+  {
+    id: 2,
+    title: 'World of News',
+    skills: 'React, JavaScript, Vite',
+    description:
+      'Проект Мировых новостей показывает, как самые свежие новости (в левом разделе), так и раздел всех новостей, где можно выбирать раздел интересующих новостей, переходить по страницам и вводить в поиск интересующую вас новость.',
+    img: project01,
+    imgBig: project01B,
+    link: 'https://news-react-dusky.vercel.app/',
+    gitHubLink: 'https://github.com/igor-senichev/news-react',
   },
   // {
   //   id: 3,
